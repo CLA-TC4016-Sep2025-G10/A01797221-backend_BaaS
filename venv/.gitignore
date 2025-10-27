@@ -1,2 +1,69 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
+# ==============================
+# Python + Jupyter Project
+# ==============================
+
+# Virtual environments
+venv/
+env/
+.venv/
+venvvenv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# Build / distribution folders
+build/
+dist/
+*.egg-info/
+
+# Environment and secret files
+.env
+.env.*
+*.json
+*.sqlite3
+*.db
+
+# Coverage and test outputs
+htmlcov/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignore large data files (optional — uncomment if needed)
+# data/
+# datasets/
+# *.csv
+# *.h5
+# *.pkl
+# *.zip
+
+# Keep these important folders
+!Notebooks/
+!notebooks/
+!src/
+!.gitignore
+!README.md
 
